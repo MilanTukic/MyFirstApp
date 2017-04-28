@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_articleId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tukic.mytaskexecom.AddArticle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:hint="   Enter name"
+        android:id="@+id/TheNameArticle"
+        android:background="@drawable/edit_text_design"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="   Enter price"
+            android:id="@+id/ThePriceArticle"
+            android:background="@drawable/edit_text_design"
+            />
+
+
+
+        <Button
+            android:text="Add new article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonArticle"
+            android:layout_margin="15dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
